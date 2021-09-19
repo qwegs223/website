@@ -90,6 +90,18 @@ html.fp-enabled,
     -ms-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
 }
+
+.waifu_container {
+    width: 300px;  <!-- wrapping div is smaller than the divs you trying to put in it-->
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.taco { display: inline-block;
+width:30%;}
 .fp-controlArrow.fp-prev {
     left: 15px;
     width: 0;
@@ -273,7 +285,7 @@ caption,th {
 }
 h1,h2,h3,h4,h5,h6 {
     font-weight: normal;
-    font-size: 100%;
+    font-size: 80%;
     margin:0;
     padding:0;
     color:#444;
@@ -298,10 +310,10 @@ body{
 	position: relative;
 }
 h1{
-	font-size: 6em;
+	font-size: 4em;
 }
 p {
-    font-size: 3em;
+    font-size: 1.5em;
     margin: 1em 0;
 }
 .intro p{
