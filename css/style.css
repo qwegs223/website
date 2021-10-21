@@ -403,17 +403,18 @@ h6,
 }
 
 @media screen and (max-width: 800px){
-.m-0 {font-size:18px;}
-.policy	{font-size:8px;}
-}
+.m-0 {font-size: 18px;}
 
-@media screen and (max-width: 800px){
-col-md-10{font-size:5px;}
 }
 
 .policy {
-	font-size: 12px;
+	font-size: 14px;
 	}
+
+@media screen and (max-width: 800px){
+	.policy	{
+		font-size: 8px;}
+}
 
 .responsive {
   max-width: 100%;
