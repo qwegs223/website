@@ -403,7 +403,8 @@ h6,
 }
 
 @media screen and (max-width: 800px){
-h1{font-size:18px;}
+.m-0 {font-size:18px;}
+.policy	{font-size:8px;}
 }
 
 @media screen and (max-width: 800px){
